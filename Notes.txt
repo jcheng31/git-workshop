@@ -1,0 +1,11 @@
+Init
+git init is used to create a repository.
+
+Status
+git status tell sus the state of our working directory.
+
+.gitignore Files
+.gitignore files tell git what it should completely ignore.
+
+Adding Things
+git add tells git to track specific files or folders
