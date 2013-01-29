@@ -44,6 +44,7 @@ To create a new branch, type git branch <branch name>
 git checkout <branch name> switches to that branch
 Branches are not automatically updated: if left alone, they remain the way they were at the time they were created
 
+
 Merging
 To merge changes made on another branch into the current one, we use git merge <branch name> 
 Merge conflicts occur when we make changes on different branches that git can’t automatically combine – the changes made contradict or conflict with each other
@@ -51,8 +52,14 @@ When a merge conflict occurs, git shows both of the changes that are conflicting
 After resolving a conflict, we have to commit the changes manually
 If no merge conflicts occur, git will automatically commit the merge for us
 
+
 Checkout (for commits)
 A git repository is basically like a tree made up of different commits
 Branches are simply specific commits with a label attached to them. HEAD is a pointer to the commit we’re currently “visiting” in the repository
 git checkout shifts the HEAD pointer around the repository: it can be moved to another branch, or a specific commit (git checkout <commit hash>)
 This lets us revisit our older commits
+
+
+Undoing
+If we want to replace a single file with an older version of it, git checkout <commit> <file> will take the version of the file from the specified commit, then stage it for us
+If we want to undo a specific commit, git revert <commit> will create a new commit which undoes the specified one
