@@ -63,3 +63,10 @@ This lets us revisit our older commits
 Undoing
 If we want to replace a single file with an older version of it, git checkout <commit> <file> will take the version of the file from the specified commit, then stage it for us
 If we want to undo a specific commit, git revert <commit> will create a new commit which undoes the specified one
+
+
+Reset
+git reset can be used to undo commits: git reset <commit to restore to> <mode>
+In –soft mode, reset rolls back to the specified commit but lets us immediately commit all the changes that were made since then
+In –mixed mode, reset rolls back to the specified commit and unstages all the changes made since then – we have to manually stage and commit them
+In –hard mode, reset rolls back to the specified commit and DROPS all changes made since then
