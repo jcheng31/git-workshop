@@ -3,7 +3,7 @@ git init is used to create a repository.
 
 
 Status
-git status tell sus the state of our working directory.
+git status tells us the state of our working directory.
 
 
 .gitignore Files
