@@ -41,3 +41,5 @@ Branching
 Git branches are like parallel universes where we can experiment or work on different things
 git branch gives a list of all branches in the repository
 To create a new branch, type git branch <branch name>
+git checkout <branch name> switches to that branch
+Branches are not automatically updated: if left alone, they remain the way they were at the time they were created
