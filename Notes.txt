@@ -50,3 +50,9 @@ Merge conflicts occur when we make changes on different branches that git can’
 When a merge conflict occurs, git shows both of the changes that are conflicting – we have to manually edit the file to resolve the conflict
 After resolving a conflict, we have to commit the changes manually
 If no merge conflicts occur, git will automatically commit the merge for us
+
+Checkout (for commits)
+A git repository is basically like a tree made up of different commits
+Branches are simply specific commits with a label attached to them. HEAD is a pointer to the commit we’re currently “visiting” in the repository
+git checkout shifts the HEAD pointer around the repository: it can be moved to another branch, or a specific commit (git checkout <commit hash>)
+This lets us revisit our older commits
