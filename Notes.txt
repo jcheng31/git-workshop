@@ -43,3 +43,10 @@ git branch gives a list of all branches in the repository
 To create a new branch, type git branch <branch name>
 git checkout <branch name> switches to that branch
 Branches are not automatically updated: if left alone, they remain the way they were at the time they were created
+
+Merging
+To merge changes made on another branch into the current one, we use git merge <branch name> 
+Merge conflicts occur when we make changes on different branches that git can’t automatically combine – the changes made contradict or conflict with each other
+When a merge conflict occurs, git shows both of the changes that are conflicting – we have to manually edit the file to resolve the conflict
+After resolving a conflict, we have to commit the changes manually
+If no merge conflicts occur, git will automatically commit the merge for us
