@@ -21,3 +21,7 @@ Commits should ideally contain only a few changes each: this lets us revert mist
 Commit messages are used to describe the changes we’ve made to the code
 
 Write commit messages to explain “what this will do”, not “what I did”
+
+Commit Logs
+git log shows us all the commits that were made.
+git log --oneline shows a summary view of all commits.
