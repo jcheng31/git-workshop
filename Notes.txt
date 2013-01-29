@@ -9,3 +9,8 @@ git status tell sus the state of our working directory.
 
 Adding Things
 git add tells git to track specific files or folders
+
+Commits
+A commit is a snapshot of the state of our repository at a certain point in time.
+
+To commit changes, we first stage them using git add, then use git commit
