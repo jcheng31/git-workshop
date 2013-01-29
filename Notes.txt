@@ -29,3 +29,9 @@ Write commit messages to explain “what this will do”, not “what I did”
 Commit Logs
 git log shows us all the commits that were made.
 git log --oneline shows a summary view of all commits.
+
+
+Diffs
+Each commit has an SHA-1 hash, used to ID it
+git diff <old commit> <new commit> shows us what’s changed between two commits
+git diff alone shows the difference between our current state and the last commit
