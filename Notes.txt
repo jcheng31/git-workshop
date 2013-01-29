@@ -14,3 +14,10 @@ Commits
 A commit is a snapshot of the state of our repository at a certain point in time.
 
 To commit changes, we first stage them using git add, then use git commit
+
+Commit Messages
+Commits should ideally contain only a few changes each: this lets us revert mistakes more easily
+
+Commit messages are used to describe the changes we’ve made to the code
+
+Write commit messages to explain “what this will do”, not “what I did”
